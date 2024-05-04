@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://ctf.mzy0.com"><img src=https://github.com/Tokeii0/LinuxSniffyScout/blob/main/Designer.png" width="250" height="250" alt="></a>
+  <a href="https://ctf.mzy0.com"><img src="https://github.com/Tokeii0/LinuxSniffyScout/blob/main/Designer.png" width="250" height="250" alt="></a>
 </p>
 <div align="center">
 
