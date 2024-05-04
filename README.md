@@ -1,12 +1,9 @@
 <p align="center">
   <a href="https://ctf.mzy0.com"><img src="https://github.com/Tokeii0/LinuxSniffyScout/blob/main/Designer.png" width="250" height="250" alt="></a>
 </p>
-<div align="center">
 
-# LinuxSniffyScout
 
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable-next-line MD036 -->
+# LinuxSniffyScou
 _✨专为运维赛设计的可视化linux安全检测工具 ✨_
 <!-- prettier-ignore-end -->
 <a href="https://jq.qq.com/?_wv=1027&k=DzOtbzU4"><img src="https://img.shields.io/badge/QQ%E7%BE%A4-555741990-orange?style=flat-square" alt="QQGroup"></a>
@@ -14,6 +11,6 @@ _✨专为运维赛设计的可视化linux安全检测工具 ✨_
   <a href="https://afdian.net/@Tokeii"><img src="https://img.shields.io/badge/爱发电-afdian.net-66ccff?style=flat-square" alt="aifadian"></a>
   <a href=".."><img src="https://img.shields.io/badge/Python%20-%203.8+-def1f2?style=flat-square" alt="python"></a>
 </div>
-
+<div align="center">
 ### 这是什么
 专为运维赛设计的可视化linux安全检测工具
