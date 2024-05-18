@@ -1,0 +1,15 @@
+SUIDWHITE:
+    - "/usr/bin/passwd"
+    - "/usr/bin/sudo"
+    - "/usr/bin/chfn"
+    - "/usr/bin/chsh"
+    - "/usr/bin/gpasswd"
+    - "/usr/bin/newgrp"
+    - "/bin/su"
+    - "/bin/mount"
+    - "/bin/umount"
+    - "/usr/bin/at"
+    - "/usr/libexec/openssh/ssh-keysign"
+
+IPandPort: '172.30.110.248:22'
+UsernameandPassword: 'root:root'

@@ -1,0 +1,34 @@
+## First rule - delete all
+-D
+
+## Increase the buffers to survive stress events.
+## Make this bigger for busy systems
+-b 8192
+
+## This determine how long to wait in burst of events
+--backlog_wait_time 0
+
+## Set failure mode to syslog
+-f 1
+
+## 111
+
+-a always,exit -F arch=b64 -S execve -k exec
+-a always,exit -F arch=b32 -S execve -k exec
+
+-a exit,always -F path=/bin/bash -F perm=x -F auid>=1000 -F auid!=4294967295 -k bash_activity
+-a exit,always -F path=/bin/sh -F perm=x -F auid>=1000 -F auid!=4294967295 -k sh_activity
+
+-w /etc/ -p wa -k etc_changes
+
+-w /var/log/lastlog -p wa -k logins
+-w /var/run/faillock/ -p wa -k login_failures
+
+-w /var/log/secure -p wa -k auth_logs
+
+-w /etc/passwd -p wa -k user_activity
+-w /etc/group -p wa -k group_activity
+
+
+
+
